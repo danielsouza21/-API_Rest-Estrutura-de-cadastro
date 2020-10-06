@@ -1,8 +1,0 @@
-npm init -y
-npm install express
-npm install body-parser
-
-node src/index.js
-
--- Instalar mongoDB
-npm install mongoose

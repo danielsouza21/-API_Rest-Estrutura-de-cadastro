@@ -1,0 +1,11 @@
+npm init -y
+npm install express
+npm install body-parser
+
+-- Instalar mongoDB na maquina
+npm install mongoose
+
+npm install bcrypt
+
+--Iniciar software
+node src/index.js
