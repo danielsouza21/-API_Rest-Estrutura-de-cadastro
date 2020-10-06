@@ -10,8 +10,8 @@ Status: Desenvolvimento :warning:
 Aplicando conceitos do NodeJS + Express, criamos uma estrutura de pastas, conectamos ao MongoDB através do model, controller e rota para cadastro de usuário com senha criptografada. 
  
  # Utilizando o Postman App
- O Postman é uma plataforma auxiliar de desenvolvimento de API's, capaz de realizar diversas requests a um endereço especifico.
- Ao abrir o aplicativo, podemos criar um novo request e acessar o dominio em questão (http://localhost:3030/produtos). Após, definimos o método de request (GET, POST e/ou PUT). Em ambos os casos, podemos também acessar um ID especifico. Para inserirmos um novo produto no BD, devemos acessar o body e definir o dado para 'x-www-form-urlencoded', para entao criarmos o JSON (parametro em KEY e valor em VALUE).
+ Criar um novo request e acessar o dominio em questão (http://localhost:3000/auth/register). Após, definimos o método de request (POST). Para inserirmos um novo usuario no BD, devemos acessar o body e definir o dado para 'raw', para entao criarmos o JSON com "name", "email" e "password". 
+ Não é permitido mais de um usuario com o mesmo email e a senha é criptografada para o formato hash.
   
 # Terminal:
 Pre-sets:
